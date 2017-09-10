@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.blazejolesiak.controllers.Controller">
+   <children>
+      <TextArea fx:id="chatText" editable="false" layoutX="25.0" layoutY="43.0" prefHeight="250.0" prefWidth="531.0" />
+      <TextArea fx:id="yourMessageText" layoutX="92.0" layoutY="306.0" prefHeight="52.0" prefWidth="381.0" />
+      <JFXButton fx:id="sendButton" layoutX="488.0" layoutY="320.0" text="send" />
+      <TextField editable="false" focusTraversable="false" layoutX="91.0" layoutY="291.0" prefHeight="19.0" prefWidth="49.0" style="-fx-background-color: f000;" text="message:">
+         <font>
+            <Font size="9.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField editable="false" layoutX="25.0" layoutY="25.0" prefHeight="19.0" prefWidth="59.0" style="-fx-background-color: f000;" text="chat dialog:">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
